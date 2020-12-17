@@ -1,19 +1,23 @@
 #box {
     padding: 0px 10%;
-    border: 1px solid orange;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .profilePicContainer img{
-    width: 350px;
-    height: 350px;
-    padding-right: 10px;
-
+    width: 300px;
+    height: 300px;
+}
+a {
+    text-decoration: none;
 }
 
 .section {
     width:1000px;
+}
+body{
+    margin: 0px;
 }
 
 .sectionName {
@@ -26,11 +30,12 @@
 
 #header {
     display: flex;
-    border: 1px solid red;
-    padding: 0 0px;
+    border-bottom: 1px solid black;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 1 !important;
 }
 .right {
     color:black;
@@ -72,14 +77,21 @@ a:visited {
 .greetings {
     font-family: poppins, sans-serif;
     font-style: normal;
-    font-size: 54px;
-    
-    width: 500px;
-    
+    font-size: 49px;
+    width: 566px;
+}
+.greetings img {
+    margin-top: 20px;
+}
+
+.bioIcons img{
+    width: 20px;
+    height: 20px;
+
 }
 
 section img {
-    width: 430px;
+    width: 490px;
     height: auto;
     margin: 75px;
 }
@@ -111,7 +123,7 @@ section img {
 .caseText {
     height: 100px;
     
-    width: 100%;
+    width: 260px;
     text-align: center;
     margin: 0 10px;
     /* margin: 0 auto; */
@@ -120,11 +132,14 @@ section img {
 .case img {
     /* display: flex;
     align-items: space-between; */
-    width: 300px;
+    width: 205px;
+    height: 292px;
     /* height: auto; */
     /* margin: 10px 10px; */
     margin-bottom: 10px;
-   
+}
+#caseStudies {
+    margin-bottom:30px;
 }
 
 .caseStudiesContent {
@@ -135,10 +150,15 @@ section img {
     justify-content: space-between;
     align-items: center;
     width: 400px;
-    padding: 60px;
+    padding: 10px;
    
 
     /* margin: 0 10px; */
+}
+
+.caseStudiesContent img{
+    
+    height: 205px;
 }
 
 .caseStudiesAll {
@@ -148,8 +168,7 @@ section img {
    justify-content: center;
 }
 #aboutMeName {
-    margin-bottom:30px;
-    text-align: right;
+    margin-bottom: 20px;
    
 }
 .aboutMeText {
@@ -164,17 +183,30 @@ section img {
 }
 
 .aboutMePicContainer img {
-    width: 150px;
-    height: 150px;
-    margin-right:20px;
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    transform: scaleX(-1);
     
 }
 #aboutMe{
 }
 
-.line {
+#line2 {
+    margin-top:30px;
+    margin-bottom:70px;
+}
+#line {
     margin-top:50px;
     margin-bottom:50px;
+}
+#line3 {
+    margin-top:70px;
+    margin-bottom:50px;
+}
+#line4 {
+    margin-top:50px;
+    margin-bottom:70px;
 }
 
 #foodBlog {
@@ -195,14 +227,31 @@ section img {
     /* width: 1100px; */
     margin: auto;
 }
-
 .foodPictures img {
-    
-    height: 15.5%;
-    width: 15.5%
+    transition:1s;
+}
+
+.foodPictures img:hoover {
+    filter: grayscale (100%);
+    transform: scale(1.1);
+}
+
+
+
+.foodSmall {
+    height: 100%;
+    width: 100%
     /* height: 180px;
     width: 180px; */
+    
 }
+.foodBig {
+    
+    width: 150px;
+    height: 150px;
+    
+}
+
 #email{
     font-family: poppins, sans-serif;
     font-style: normal;
@@ -210,7 +259,7 @@ section img {
     
 }
 button {
-    margin:10px;
+    
     background-color: #4C7DFA;
     font-size:14px;
     font-family: poppins, sans-serif;
@@ -219,13 +268,16 @@ button {
     width: 194px;
     height: 36.88px;
     border-radius: 30px;
+    margin-bottom: 70px;
+}
+#email {
+    text-align: center;
 }
 .socialMediaAll {
-    display: flex;
-    justify-content: space-between;
+    margin: 5px;
 }
-.socialMediaContent img{
-  display:flex;
-  justify-content: space-between;
-
+.socialMediaAll img {
+    margin: 8px;
+    width: 30px;
+    height: 30px;
 }
