@@ -1,0 +1,22 @@
+#headingImage img {
+    width: 1000px;
+}
+#preface {
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    width: 1000px;
+}
+#survey img{
+    width: 770px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey2 img{
+    width: 1000px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
