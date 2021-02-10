@@ -1,0 +1,354 @@
+#box {
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profilePicContainer img{
+    width: 300px;
+    height: 300px;
+}
+
+.background{
+    background-color: rgb(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    /* position: fixed;
+    z-index: 2; */
+    backdrop-filter: blur(5px);
+}
+
+#foodBlogModalContainer {
+    position: fixed;
+    z-index: 2;
+    height:100%;
+    width:100%;
+    display: none;
+    /* position: relative; */
+}
+#exitButton {
+
+    position: absolute;
+    z-index: 3 !important;
+    height: 36px;
+    width: 36px; 
+    right: -20%;
+    top:-7%;
+    /* margin: 4.5%  */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+#foodModal{
+    /* height: 85%; */
+    display: block;
+    /* margin: 4.5% auto; */
+    width: 95%;
+}
+#foodBlogModalImage {
+    box-shadow: 1px 1px 6px rgb(0,0,0,0.5);
+    height: 100%;
+}
+
+/* .background {
+    position: fixed;
+} */
+
+.modal {
+    /* background-color: white; */
+    /* width: 50%; */
+    height: 80%;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+a {
+    text-decoration: none;
+}
+.section {
+    width:1000px;
+}
+body{
+    margin: 0px;
+}
+#view{
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+}
+#view a{
+    display: flex;
+    text-align: right;
+}
+.sectionName {
+    margin-left: 0px;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#header {
+    display: flex;
+    border-bottom: 1px solid black;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1 !important;
+}
+.right {
+    color:black;
+    font-size: 18px;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+
+#navigationContainer {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navigationLink {
+    padding: 0 20px;
+}
+#logo {
+    font-size:20px;
+    font-weight: 600;
+}
+#bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    padding-top:100px;
+    width: 1000px;
+}
+.greetings {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-size: 49px;
+    width: 566px;
+}
+.greetings img {
+    margin-top: 20px;
+}
+
+.bioIcons img{
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0 0 30px #333);
+}
+
+section img {
+    width: 490px;
+    height: auto;
+    margin: 75px;
+}
+
+/* case studies container styles */
+#case {
+    
+    padding: 20px 0px;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
+.caseBigText {
+    font-size: 26px;
+}
+.caseSmallText {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* width: 300px; */
+    padding: 20px 20px;
+    height: auto;
+ 
+}
+
+.caseText {
+    height: 100px;
+    width: 260px;
+    text-align: center;
+    margin: 0 10px;
+    /* margin: 0 auto; */
+}
+
+.case img {
+    /* display: flex;
+    align-items: space-between; */
+    width: 205px;
+    height: 292px;
+    /* height: auto; */
+    /* margin: 10px 10px; */
+    margin-bottom: 10px;
+}
+#caseStudies {
+    margin-bottom:30px;
+}
+
+.caseStudiesContent {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; (*/
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    /* padding: 10px; */
+   
+
+    /* margin: 0 10px; */
+}
+
+.caseStudiesContent img{
+    
+    height: 165px;
+}
+
+.caseStudiesAll {
+   width:100%;
+   
+   display: flex;
+   justify-content: center;
+}
+#aboutMeName {
+    margin-bottom: 20px;
+   
+}
+.aboutMeText {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.aboutMePicContainer img {
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    transform: scaleX(-1);
+    
+}
+#aboutMe{
+}
+
+#line2 {
+    margin-top:30px;
+    margin-bottom:70px;
+}
+#line {
+    margin-top:30px;
+    margin-bottom:50px;
+}
+#line3 {
+    margin-top:70px;
+    margin-bottom:50px;
+}
+#line4 {
+    margin-top:50px;
+    margin-bottom:70px;
+}
+
+#foodBlog {
+    padding: 20px 30px;
+    
+}
+
+.allFoodImages {
+
+    padding: 20px 0px;
+}
+
+.foodPictures {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+    /* width: 1100px; */
+    margin: auto;
+}
+.foodPictures img {
+    transition:1s;
+}
+
+.foodPictures img:hoover {
+    filter: grayscale (100%);
+    transform: scale(1.1);
+}
+
+
+
+.foodSmall {
+    height: 100%;
+    width: 100%
+    /* height: 180px;
+    width: 180px; */
+    
+}
+.foodBig {
+    
+    width: 150px;
+    height: 150px;
+    
+}
+
+#email{
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+button {
+    background-color: #4C7DFA;
+    font-size:14px;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    color: white;
+    width: 194px;
+    height: 36.88px;
+    border-radius: 30px;
+    margin-bottom: 70px;
+    border-color:#4C7DFA;
+    box-shadow: 0 0 5px #333;
+}
+
+#email {
+    text-align: center;
+}
+.socialMediaAll {
+    margin: 5px;
+}
+.socialMediaAll img {
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+}
