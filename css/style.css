@@ -288,11 +288,8 @@ section img {
 
 #foodBlog {
     padding: 20px 30px;
-    
 }
-
 .allFoodImages {
-
     padding: 20px 0px;
 }
 
@@ -306,6 +303,7 @@ section img {
 }
 .foodPictures img {
     transition:1s;
+
 }
 
 .foodPictures img:hoover {
@@ -313,14 +311,11 @@ section img {
     transform: scale(1.1);
 }
 
-
-
 .foodSmall {
     height: 100%;
-    width: 100%
+    width: 100%;
     /* height: 180px;
     width: 180px; */
-    
 }
 .foodBig {
     

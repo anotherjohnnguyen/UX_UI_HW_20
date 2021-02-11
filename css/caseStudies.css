@@ -252,7 +252,7 @@ margin-right: auto;
   height: 450px;
   margin-bottom: 40px;
 }
-#survey25, #survey26, #survey27, #survey279, #survey278 {
+#survey25, #survey26, #survey27, #survey279, #survey278, #survey27A {
 display: flex;
 justify-content: center;
 }
@@ -279,6 +279,12 @@ text-align: right;
 }
 #survey27 img{
   width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey27A img{
+  height: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
