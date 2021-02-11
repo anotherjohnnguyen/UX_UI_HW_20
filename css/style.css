@@ -343,8 +343,7 @@ button {
 }
 button:hover {
     background-color: darkblue;
-    text-decoration: none;
-    color:teal;
+    
 }
 #email {
     text-align: center;
