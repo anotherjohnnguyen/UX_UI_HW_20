@@ -337,10 +337,15 @@ button {
     height: 36.88px;
     border-radius: 30px;
     margin-bottom: 70px;
-    border-color:#4C7DFA;
+    /* border-color:#4C7DFA; */
     box-shadow: 0 0 5px #333;
+    text-decoration: none;
 }
-
+button:hover {
+    background-color: darkblue;
+    text-decoration: none;
+    color:teal;
+}
 #email {
     text-align: center;
 }
