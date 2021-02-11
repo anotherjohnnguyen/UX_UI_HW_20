@@ -115,7 +115,9 @@ margin-right: auto;
   display:flex;
   justify-content: space-between;
   margin-top:50px;
-
+}
+#survey13 a{
+  color:blue;
 }
 #survey14 img{
   height: 148px;
@@ -228,7 +230,10 @@ margin-right: auto;
   display:flex;
   justify-content: space-evenly;
 }
-#survey22, #survey23, #survey222{
+#survey21 a{
+  color: blue;
+}
+#survey22, #survey23, #survey222, #survey23A{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -248,6 +253,11 @@ margin-right: auto;
   margin-bottom: 40px;
 }
 #survey23 img{
+  width: 220px;
+  height: 400px;
+  margin-bottom: 40px;
+}
+#survey23A img{
   width: 220px;
   height: 450px;
   margin-bottom: 40px;
@@ -536,4 +546,11 @@ margin-right: auto;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+#survey277 a, #survey255 a, #survey255B a{
+  color:blue;
+}
+#survey255B {
+  display: flex;
+  justify-content: center;
 }
