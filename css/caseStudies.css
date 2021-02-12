@@ -230,7 +230,7 @@ margin-right: auto;
   display:flex;
   justify-content: space-evenly;
 }
-#survey21 a{
+#survey21 a, #survey21b a{
   color: blue;
 }
 #survey22, #survey23, #survey222, #survey23A{
