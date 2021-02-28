@@ -169,6 +169,19 @@ a:visited {
     height: 30px;
     /* filter: drop-shadow(0 0 30px #333); */
 }
+#drib {
+    margin-left:15x;
+    width: 35px;
+    height: 35px;
+    /* filter: drop-shadow(0 0 30px #333); */
+}
+.bioIcons {
+    display: flex;
+    align-items: center;
+}
+.bio2{
+    margin-right: 15px;
+}
 
 section img {
     width: 490px;
@@ -342,6 +355,7 @@ button {
     height: 36.88px;
     border-radius: 30px;
     margin-bottom: 70px;
+    margin-top:5px;
     /* border-color:#4C7DFA; */
     box-shadow: 0 0 5px #333;
     text-decoration: none;
@@ -361,9 +375,12 @@ button:active {
 }
 .socialMediaAll {
     margin: 5px;
+    display: flex;
+    align-items: center;
+
 }
 .socialMediaAll img {
-    margin: 8px;
+    margin: 1px;
     width: 30px;
     height: 30px;
 }
