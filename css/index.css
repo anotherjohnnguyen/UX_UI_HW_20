@@ -1,0 +1,342 @@
+/* ---- Wrappers ---- */
+body {
+  font-family: poppins, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* ---- Header ---- */
+.header {
+  display: none;
+  border-bottom: 1px solid black;
+  background-color: white;
+  justify-content: space-between;
+  position: fixed;
+  font-weight: 600; 
+  width: inherit;
+  max-width: inherit;
+  top: 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  font-weight: normal;
+  margin: 0;
+}
+
+.header li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+/* ---- Bio ---- */
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  justify-content: space-between;
+}
+
+
+.bio img{
+  margin: 20px 0 0;
+}
+
+.bio-content {
+  width: 85%;
+  margin: 25px;
+}
+
+.bio-pic img{
+  width: 100%;
+}
+
+.bio-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-icons img {
+  margin: 20px 5px 0;
+  width: 30px;
+  height: 30px;
+}
+
+.bio-icons > a:last-child img {
+  margin: 15px 5px 0;
+  width: 35px;
+  height: 35px;
+}
+
+.line img {
+  width: 100%;
+}
+
+/* ---- Case studies ---- */
+.case-studies {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  flex-direction: column;
+}
+
+
+.case-content {
+  width: 100%;
+}
+
+.case-content img {
+  width: 100%;
+  height: 165px;
+  object-fit: contain;
+}
+
+.case-text {
+  padding: 20px;
+}
+
+
+/* ---- About me ---- */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.about-me img {
+  width: 180px;
+  height: 180px;
+}
+
+.about-me-text {
+  font-size: 14px;
+  margin: 20px;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.big-text {
+  font-size: 18px;
+}
+
+/* ---- Food blog ---- */
+.food-blog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.food-img-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.food-img-container img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.view-more {
+  display: flex;
+  align-self: center;
+  margin: 30px 0 0;
+}
+
+.view-more a {
+  text-decoration: none;
+}
+
+/* ---- Contact ---- */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 120px;
+}
+
+/* ---- Miscellaneous ---- */
+.h4-header {
+  width: 100%;
+  font-weight: normal;
+  text-align: left;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.btn {
+  background-color: #4C7DFA;
+  color: white;
+  border-radius: 30px;
+  margin: 20px;
+  box-shadow: 0 0 5px #333;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.background{
+  background-color: rgb(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+#foodBlogModalContainer {
+  position: fixed;
+  z-index: 2;
+  height:100%;
+  width:100%;
+  display: none;
+}
+#exitButton {
+
+  position: absolute;
+  z-index: 3 !important;
+  height: 36px;
+  width: 36px; 
+  right: -20%;
+  top:-7%;
+}
+#foodModal{
+  display: block;
+  width: 95%;
+}
+#foodBlogModalImage {
+  box-shadow: 1px 1px 6px rgb(0,0,0,0.5);
+  height: 100%;
+}
+
+.modal {
+  height: 80%;
+  z-index: 2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 540px) {
+  .wrapper {
+      width: 100%;
+  }
+
+  .bio {
+      font-size: 28px;
+      line-height: 1.30;
+  }
+
+  .header {
+      display: flex;
+      font-size: 14px;
+  }
+
+  .about-me-content {
+      flex-direction: row;
+  }
+  
+  .case-studies {
+      flex-direction: row;
+  }
+
+  .case-content {
+      width: 25%;
+  }
+
+  .food-img-container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+  }
+
+  .view-more {
+      align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+      width: 100%;
+  }
+
+  .bio {
+      font-size: 36px;
+      line-height: 1.35;
+      flex-direction: row;
+  }
+
+  .bio-icons {
+      justify-content: flex-start;
+  }
+
+  .bio-content {
+    width: 50%;
+    margin: 25px 0 25px 25px;
+  }
+  
+  .header {
+      font-size: 14px;
+  }
+
+  .header li {
+      margin: 0 10px;
+  }
+
+  .food-img-container {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .wrapper {
+      width: 100%;
+      max-width: 1000px;
+  }
+
+  .bio {
+      display: flex;
+      font-size: 49px;
+      line-height: 1.5;
+  }
+
+  .header {
+      font-size: 20px;
+  }
+
+  .header li {
+      margin: 0 20px;
+  }
+
+  .food-img-container {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+  }
+}
