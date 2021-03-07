@@ -5,8 +5,9 @@
     align-items: center;
 }
 .profilePicContainer img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+    margin-right:160px;
 }
 
 .background{
@@ -73,14 +74,25 @@
 a {
     text-decoration: none;
 }
-
 .section {
     width:1000px;
 }
 body{
     margin: 0px;
 }
-
+#view{
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+    margin-left: 800px;
+}
+#view a{
+    display: flex;
+    text-align: right;
+    color: blue;
+}
 .sectionName {
     margin-left: 0px;
     font-family: poppins, sans-serif;
@@ -97,17 +109,22 @@ body{
     justify-content: space-between;
     position: fixed;
     z-index: 1 !important;
+    color: black;
 }
+#header a {
+    color: black;
+}
+
 .right {
     color:black;
     font-size: 18px;
 }
 
+
 a:visited {
     color: black;
     text-decoration: none;
   }
-
 
 #navigationContainer {
     display: flex;
@@ -132,23 +149,37 @@ a:visited {
     justify-content: space-between;
     align-items: center;
     padding: 80px 0;
-    padding-top:100px;
+    padding-top:120px;
     width: 1000px;
 }
 .greetings {
     font-family: poppins, sans-serif;
     font-style: normal;
-    font-size: 49px;
-    width: 566px;
+    font-size: 56px;
+    width: 500px;
 }
 .greetings img {
     margin-top: 20px;
+    width: 440px;
 }
 
 .bioIcons img{
-    width: 20px;
-    height: 20px;
-    filter: drop-shadow(0 0 30px #333);
+    width: 30px;
+    height: 30px;
+    /* filter: drop-shadow(0 0 30px #333); */
+}
+#drib {
+    margin-left:15x;
+    width: 35px;
+    height: 35px;
+    /* filter: drop-shadow(0 0 30px #333); */
+}
+.bioIcons {
+    display: flex;
+    align-items: center;
+}
+.bio2{
+    margin-right: 15px;
 }
 
 section img {
@@ -176,14 +207,13 @@ section img {
     display: flex;
     align-items: center;
     /* width: 300px; */
-    padding: 0 5px;
+    padding: 20px 20px;
     height: auto;
  
 }
 
 .caseText {
     height: 100px;
-    
     width: 260px;
     text-align: center;
     margin: 0 10px;
@@ -211,7 +241,7 @@ section img {
     justify-content: space-between;
     align-items: center;
     width: 400px;
-    padding: 10px;
+    /* padding: 10px; */
    
 
     /* margin: 0 10px; */
@@ -219,7 +249,7 @@ section img {
 
 .caseStudiesContent img{
     
-    height: 205px;
+    height: 165px;
 }
 
 .caseStudiesAll {
@@ -240,7 +270,6 @@ section img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .aboutMePicContainer img {
@@ -272,12 +301,22 @@ section img {
 
 #foodBlog {
     padding: 20px 30px;
-    
+}
+.allFoodImages {
+    padding: 20px 0px;
+}
+.dribbble {
+    display: flex;
+    justify-content: center;
+}
+.dribbble img {
+    width: 130px;
+    height: 277px;
 }
 
-.allFoodImages {
-
-    padding: 20px 0px;
+.dribbblePreview {
+    height: 295px;
+    width: 150px;
 }
 
 .foodPictures {
@@ -290,6 +329,7 @@ section img {
 }
 .foodPictures img {
     transition:1s;
+
 }
 
 .foodPictures img:hoover {
@@ -297,14 +337,11 @@ section img {
     transform: scale(1.1);
 }
 
-
-
 .foodSmall {
     height: 100%;
-    width: 100%
+    width: 100%;
     /* height: 180px;
     width: 180px; */
-    
 }
 .foodBig {
     
@@ -329,8 +366,19 @@ button {
     height: 36.88px;
     border-radius: 30px;
     margin-bottom: 70px;
-    border-color:#4C7DFA;
+    margin-top:5px;
+    /* border-color:#4C7DFA; */
     box-shadow: 0 0 5px #333;
+    text-decoration: none;
+}
+button:hover {
+    background-color: darkblue;
+}
+button:visited {
+    color: white;
+}
+button:active {
+    color: white;
 }
 
 #email {
@@ -338,9 +386,17 @@ button {
 }
 .socialMediaAll {
     margin: 5px;
+    display: flex;
+    align-items: center;
+
 }
 .socialMediaAll img {
-    margin: 8px;
+    margin: 1px;
     width: 30px;
     height: 30px;
+}
+
+
+#resumeButton, #resumeButton:visited, #resumeButton:active, #resumeButton:hover {
+    color: white !important;
 }
