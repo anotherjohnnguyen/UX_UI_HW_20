@@ -61,10 +61,12 @@ body {
 .bio-content {
   width: 85%;
   margin: 25px;
+  margin-left:80px;
 }
 
 .bio-pic img{
   width: 100%;
+ 
 }
 
 .bio-icons {
@@ -323,8 +325,9 @@ body {
 
   .bio {
       display: flex;
-      font-size: 50px;
+      font-size: 46px;
       line-height: 1.5;
+     
   }
 
   .header {
