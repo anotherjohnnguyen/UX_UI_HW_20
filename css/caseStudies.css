@@ -262,7 +262,7 @@ margin-right: auto;
   height: 450px;
   margin-bottom: 40px;
 }
-#survey25, #survey26, #survey27, #survey279, #survey278, #survey27A, #survey27V, #survey27P, #survey27L, #survey27M, #survey27K, #survey27C, #survey27D, #survey27E, #survey27Q, #survey27MM, #survey27NN {
+#survey25, #survey26, #survey27, #survey279, #survey278, #survey27A, #survey27V, #survey27P, #survey27L, #survey27M, #survey27K, #survey27C, #survey27D, #survey27E, #survey27Q, #survey27MM, #survey27NN, #survey27BB, #survey27CC, #survey27LL, #survey27LP, #survey27LO {
 display: flex;
 justify-content: center;
 }
@@ -299,6 +299,18 @@ text-align: right;
   margin-left: auto;
   margin-right: auto;
 }
+#survey27BB img {
+  height: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey27CC img {
+  height: 365px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #survey27NN img {
   height: 500px;
   display: block;
@@ -315,6 +327,18 @@ text-align: right;
   height: 677px;
   display: block;
   margin-left: auto;
+  margin-right: auto;
+}
+#survey27LP img {
+  height: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey27LO img {
+  height: 720px;
+  display: block;
+  margin-left: 20px;
   margin-right: auto;
 }
 #survey27D img {
@@ -361,6 +385,12 @@ text-align: right;
 }
 #survey27L img {
   height: 780px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey27LL img {
+  height: 900px;
   display: block;
   margin-left: auto;
   margin-right: auto;
