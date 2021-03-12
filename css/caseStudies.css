@@ -262,7 +262,7 @@ margin-right: auto;
   height: 450px;
   margin-bottom: 40px;
 }
-#survey25, #survey26, #survey27, #survey279, #survey278, #survey27A, #survey27V, #survey27P, #survey27L, #survey27M, #survey27K, #survey27C, #survey27D, #survey27E, #survey27Q, #survey27MM, #survey27NN, #survey27BB, #survey27CC, #survey27LL, #survey27LP, #survey27LO, #survey27AA {
+#survey25, #survey26, #survey27, #survey279, #survey278, #survey27A, #survey27V, #survey27P, #survey27L, #survey27M, #survey27K, #survey27C, #survey27D, #survey27E, #survey27Q, #survey27MM, #survey27NN, #survey27BB, #survey27CC, #survey27LL, #survey27LP, #survey27LO, #survey27AA, #survey27CD, #survey27LLL {
 display: flex;
 justify-content: center;
 }
@@ -307,6 +307,12 @@ text-align: right;
 }
 #survey27CC img {
   height: 365px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey27CD img {
+  height: 280px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -385,6 +391,12 @@ text-align: right;
 }
 #survey27LL img {
   height: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#survey27LLL img {
+  height: 2100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
