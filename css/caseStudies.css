@@ -338,7 +338,7 @@ text-align: right;
 #survey27LO img {
   height: 720px;
   display: block;
-  margin-left: 20px;
+  margin-left: auto;
   margin-right: auto;
 }
 #survey27D img {
