@@ -346,6 +346,9 @@ justify-content: center;
 }
 #survey299 img{
 height: 540px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 #survey30{
   display:flex;
