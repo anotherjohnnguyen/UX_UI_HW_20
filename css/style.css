@@ -209,9 +209,13 @@ section img {
     /* width: 300px; */
     padding: 20px 20px;
     height: auto;
- 
 }
-
+#twitter {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .caseText {
     height: 100px;
     width: 260px;
@@ -351,7 +355,7 @@ section img {
 }
 
 #email{
-    font-family: poppins, sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
     font-style: normal;
     font-size: 18px;
     
