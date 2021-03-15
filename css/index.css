@@ -263,6 +263,7 @@ body {
   .wrapper {
       width: 100%;
   }
+  
 #drib {
   width:30px;
   height: 30px;
@@ -307,6 +308,7 @@ body {
       margin-right: 7px;
       margin-left: 7px; 
     }
+  
   .view-more {
       align-self: flex-end;
   }
@@ -314,6 +316,7 @@ body {
     display: flex;
     align-items: center;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
