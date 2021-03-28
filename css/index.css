@@ -115,6 +115,10 @@ body {
   width: 100%;
 }
 
+#line5 img {
+  width: 100%;
+}
+
 /* ---- Case studies ---- */
 .case-studies {
   display: flex;
