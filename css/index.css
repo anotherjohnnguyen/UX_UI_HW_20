@@ -87,9 +87,9 @@ body {
   width: 100%;
   -webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
 	-webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
-	-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, .2); */
 }
 
 .bio-icons {
@@ -152,9 +152,9 @@ body {
   height: 300px;
   -webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
 	-webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
-	-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, .2); */
 }
 
 .about-me-text {
@@ -199,9 +199,9 @@ body {
   
   -webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
 	-webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
-	-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 4px 4px rgba(0, 0, 0, .2); */
 }
 .food-img-container2 img{
   width: 170.3px;
