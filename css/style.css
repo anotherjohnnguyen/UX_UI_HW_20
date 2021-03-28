@@ -290,7 +290,7 @@ section img {
     margin-top:30px;
     margin-bottom:70px;
 }
-#line, #line4 {
+#line, #line5 {
     margin-top:30px;
     margin-bottom:50px;
 }
@@ -298,10 +298,10 @@ section img {
     margin-top:70px;
     margin-bottom:50px;
 }
-/* #line4 {
+#line4 {
     margin-top:50px;
-    margin-bottom:70px; */
-/* } */
+    margin-bottom:70px;
+}
 
 #foodBlog {
     padding: 20px 30px;
